@@ -1,0 +1,17 @@
+<div class="container-fluid row animated v-container fadeIn fast">
+  <!-- <div class="card-deck"> -->
+    <div class="v-item card animated fadeIn" *ngFor="let video of videos">
+      <img class="card-img-top" [src]="video.url" alt="">
+      <div class="card-body">
+          <!-- <div class="card-header"> -->
+            <h6 class="card-title">
+                <a [href]="video.videoId">{{video.title}} </a>
+            </h6>
+          <!-- </div> -->
+        <p class="card-text">
+            {{video.publishedTimeText}} - {{video.viewCountText}}
+        </p>
+      </div>
+    </div>
+  <!-- </div> -->
+</div>
