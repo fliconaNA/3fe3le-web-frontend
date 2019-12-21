@@ -30,16 +30,32 @@
 
 .v-container{
   display:inline;
-  // flex-direction: row;
   justify-content: space-around;
 }
 
 .v-item{
   max-width: 300px;
   display: inline;
-  // flex-direction: row;
   margin: 10px;
 }
 body{
-  background: linear-gradient(to right, #000 36px, #fff 0% , #fff ) !important;
+  
+  background: linear-gradient(to right, #000 30px, #fff 0% , #fff ) !important;
 }
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Lato', sans-serif !important;
+}
+
+.p-lato{
+  font-family: 'Lato', sans-serif !important;
+}
+.p-courier{
+  font-family: 'Courier Prime', monospace !important;
+}
+.p-italic{
+  font-family: 'Open Sans', sans-serif !important;
+  font-style: italic !important;
+}
+
+

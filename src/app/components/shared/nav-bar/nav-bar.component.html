@@ -1,29 +1,27 @@
 <nav class="navbar navbar-expand-sm navbar-light">
   <a  class="navbar-brand" href="#">
-    <img style="max-height: 40px; max-width: 40px;" src="../../../../assets/img/logo.png" alt="">
+    <img  src="../../../../assets/img/logo.png" alt="">
+    3FE 3LE
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="nav-items collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav  mr-auto">
       <li class="nav-item" routerlinkactive="active">
-        <a class="nav-link " [routerLink]="['home']">Home </a>
+        <a class="nav-link " [routerLink]="['about']">Conoceme</a>
       </li>
       <li class="nav-item" routerlinkactive="active">
-        <a class="nav-link " [routerLink]="['about']">About</a>
-      </li>
-      <li class="nav-item" routerlinkactive="active">
-        <a class="nav-link " [routerLink]="['shop']">Shop</a>
+        <a class="nav-link " [routerLink]="['shop']">Tienda</a>
       </li>
       <li class="nav-item" routerlinkactive="active">
         <a class="nav-link " [routerLink]="['videos']">Videos</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-sm-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+      <input class="form-control mr-sm-2 rounded-0" type="search" placeholder="Escribe algo" aria-label="Escribre algo">
+      <button class="btn btn-outline-secondary my-2 my-sm-0 rounded-0" type="submit">Buscar</button>
     </form>
   </div>
 </nav>
