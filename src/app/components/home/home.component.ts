@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { PostComponent } from "./post/post.component";
+import { PostDetailComponent } from "./post-detail/post-detail.component";
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
